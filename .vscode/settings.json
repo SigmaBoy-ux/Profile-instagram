@@ -1,0 +1,6 @@
+{
+    "search.searchEditor.defaultNumberOfContextLines": 3,
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    "editor.colorDecorators": true,
+    "editor.colorDecoratorsLimit": 100
+}
