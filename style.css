@@ -116,6 +116,11 @@ body{
  font-weight: 700;
 }
 
+.fa-palette:hover ~ .card .card__title{
+    transition: 0.4s;
+    color: var(--dark-txt__color);
+}
+
 .fa-palette:hover ~ .card .card__avatar{
     transition: 0.4s;
     background-color:var(--darkmode-color) ;
@@ -128,12 +133,12 @@ body{
 
 .fa-palette:hover ~ .card .card__header{
     transition: 0.4s;
-    background-color:rgba(245, 245, 245, 0.77) ;
+    background-color:rgba(189, 1, 189, 0.648) ;
 }
 
 .fa-palette:hover ~ .card .card__item{
     transition: 0.4s;
-    background-color:rgba(245, 245, 245, 0.77) ;
+    background-color:rgba(189, 1, 189, 0.648);
 }
 
 i{
@@ -151,9 +156,10 @@ html{
 
 @media(prefers-color-scheme: dark){
     :root{
-    --main-color: #FFFBFB;
-    --secondary-color: #7357bf;
-    --txt-color: #000;
-    --dark-txt__color: #ACA6A8;
+    --main-color: rgba(189, 1, 189, 0.648);
+    --secondary-color: #161616;
+    --txt-color: #7357bf;
+    --dark-txt__color: #FFFBFB;
     }
 }
+
