@@ -7,7 +7,7 @@
 }
 
 :root{
-
+    --darkmode-color:#00000093;
     --main-color: #7357bf;
     --secondary-color: #FFFBFB;
     --txt-color: #ACA6A8;
@@ -21,12 +21,12 @@ body{
     align-items: center;
 
     min-height: 100vh;
-    background-color: red;
+    background-color: var(--secondary-color);
     font-family: "Jost", sans-serif;
 }
 
 .card{
-    flex-basis: 700px;
+    flex-basis: 800px;
     border-radius: 90px;
     border: 1px solid var(--main-color);
     box-shadow: 0px 4px 4px 0px #00000040 inset;
@@ -114,4 +114,46 @@ body{
  font-size: 32px;
  color: var(--txt-color);
  font-weight: 700;
+}
+
+.fa-palette:hover ~ .card .card__avatar{
+    transition: 0.4s;
+    background-color:var(--darkmode-color) ;
+}
+
+.fa-palette:hover ~ .card .card__body{
+    transition: 0.4s;
+    background-color:var(--darkmode-color) ;
+}
+
+.fa-palette:hover ~ .card .card__header{
+    transition: 0.4s;
+    background-color:rgba(245, 245, 245, 0.77) ;
+}
+
+.fa-palette:hover ~ .card .card__item{
+    transition: 0.4s;
+    background-color:rgba(245, 245, 245, 0.77) ;
+}
+
+i{
+    position: absolute;
+    top: 3%;
+    right:2%;
+    font-size: 40px;
+    color: rgb(114, 1, 1);
+}
+
+html{
+    color-scheme: dark light;
+}
+
+
+@media(prefers-color-scheme: dark){
+    :root{
+    --main-color: #FFFBFB;
+    --secondary-color: #7357bf;
+    --txt-color: #000;
+    --dark-txt__color: #ACA6A8;
+    }
 }

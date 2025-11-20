@@ -2,5 +2,8 @@
     "search.searchEditor.defaultNumberOfContextLines": 3,
     "terminal.integrated.drawBoldTextInBrightColors": false,
     "editor.colorDecorators": true,
-    "editor.colorDecoratorsLimit": 100
+    "editor.colorDecoratorsLimit": 100,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.donotVerifyTags": false,
+    "liveServer.settings.donotShowInfoMsg": false
 }
