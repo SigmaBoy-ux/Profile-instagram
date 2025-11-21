@@ -123,22 +123,22 @@ body{
 
 .fa-palette:hover ~ .card .card__avatar{
     transition: 0.4s;
-    background-color:var(--darkmode-color) ;
+    background-color: #282b2f ;
 }
 
 .fa-palette:hover ~ .card .card__body{
     transition: 0.4s;
-    background-color:var(--darkmode-color) ;
+    background-color: #282b2f ;
 }
 
 .fa-palette:hover ~ .card .card__header{
     transition: 0.4s;
-    background-color:rgba(189, 1, 189, 0.648) ;
+    background-color:#cc909a ;
 }
 
 .fa-palette:hover ~ .card .card__item{
     transition: 0.4s;
-    background-color:rgba(189, 1, 189, 0.648);
+    background-color:#cc909a;
 }
 
 i{
@@ -156,8 +156,8 @@ html{
 
 @media(prefers-color-scheme: dark){
     :root{
-    --main-color: rgba(189, 1, 189, 0.648);
-    --secondary-color: #161616;
+    --main-color:#cc909a;
+    --secondary-color: #191d20;
     --txt-color: #7357bf;
     --dark-txt__color: #FFFBFB;
     }
